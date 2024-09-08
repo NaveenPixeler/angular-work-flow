@@ -1,27 +1,17 @@
-# WorkFlow
+# Angular Workflow - A Node-Based Workflow Editor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+**Angular Workflow** is an open-source library that offers functionality similar to the popular **React Flow** library, built specifically for Angular applications. It provides a powerful and flexible node-based diagram editor where users can drag and drop nodes, connect them with curved lines, and create complex workflows visually.
 
-## Development server
+## Key Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Node-based Interaction**: Users can select nodes from a list and drag them into a playground area to build workflows intuitively.
+- **Drag-and-Drop**: Seamlessly drag nodes onto the canvas to arrange and organize the workflow.
+- **Curved Connections**: Connect nodes using smooth, curved lines to clearly define the flow of data or logic.
+- **Directed Arrows**: Each connection line features arrows to represent the direction of the workflow.
+- **Customizable Nodes**: Easily modify node properties to suit different applications.
+- **Fully Interactive**: Nodes and connections can be rearranged, allowing real-time updates to your workflow structure.
+- **Angular-friendly**: Designed for seamless integration into Angular projects, making it easy to implement workflows in any Angular application.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project works similarly to **React Flow**, but for Angular-based environments. The nodes and edges can be customized to fit any use case, from business process modeling to data flow diagrams.
